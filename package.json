@@ -1,0 +1,25 @@
+{
+  "name": "@darobin/ui",
+  "version": "0.0.1",
+  "description": "Project to build my UI components, mostly tinkering for fun",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darobin/ui.git"
+  },
+  "author": "Robin Berjon <robin@berjon.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darobin/ui/issues"
+  },
+  "homepage": "https://github.com/darobin/ui#readme",
+  "devDependencies": {
+    "eslint-config-robin": "^6.1.0",
+    "rollup": "^1.29.0",
+    "rollup-plugin-svelte": "^5.1.1",
+    "svelte": "^3.16.7",
+    "svelte-preprocess-splintered": "^1.0.0"
+  }
+}
