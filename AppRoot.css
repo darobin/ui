@@ -1,0 +1,35 @@
+
+:global(:root) {
+  /*
+    This builds from the colour system used in Material Design.
+    https://material.io/design/color/the-color-system.html#color-theme-creation
+    • Primary
+    • Primary Variant
+    • Secondary
+    • Secondary Variant
+    • Background: overall page background
+    • Surface: component, like cards, background
+    • Error
+    • On Primary
+    • On Primary Variant
+    • On Secondary
+    • On Secondary Variant
+    • On Background
+    • On Surface
+    • On Error
+  */
+  --ui-primary-color: #6200ee;
+  --ui-primary-variant-color: #3700b3;
+  --ui-secondary-color: #03dac6;
+  --ui-secondary-variant-color: #018786;
+  --ui-background-color: #fff;
+  --ui-surface-color: #fff;
+  --ui-error-color: #b00020;
+  --ui-on-primary-color: #fff;
+  --ui-on-primary-variant-color: #000;
+  --ui-on-secondary-color: #000;
+  --ui-on-secondary-variant-color: #000;
+  --ui-on-background-color: #000;
+  --ui-on-surface-color: #000;
+  --ui-on-error-color: #fff;
+}
