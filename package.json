@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "Project to build my UI components, mostly tinkering for fun",
   "scripts": {
+    "build": "rollup -c",
+    "watch": "concurrently --kill-other \"npm run watch-js\" \"npm run watch-server\"",
+    "watch-js": "rollup -c -w",
+    "watch-server": "sirv start showcase --port 5555",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,9 +26,14 @@
     }
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.1",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "concurrently": "^5.0.2",
     "eslint-config-robin": "^6.1.0",
     "rollup": "^1.29.0",
+    "rollup-plugin-livereload": "^1.0.4",
     "rollup-plugin-svelte": "^5.1.1",
+    "sirv-cli": "^0.4.5",
     "svelte": "^3.16.7",
     "svelte-preprocess-splintered": "^1.0.0"
   }

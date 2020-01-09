@@ -1,11 +1,11 @@
 
 # Todo
 
-- [ ] Setup
+- [x] Setup
   - [ ] Look at how other Svelte libs have done this, notably with the issue that this will
         required `splintered`.
 
-- [ ] AppRoot component
+- [x] AppRoot component
   - [ ] have a colour system using `:global(:root)` to declare vars according to
         Tk and interpolate from props in JS
   - [ ] using a Grid based on CSS Grid (pick one)
