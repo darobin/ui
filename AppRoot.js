@@ -35,11 +35,11 @@ let colours = {
   onErrorColor,
 };
 Object.keys(colours).forEach(k => {
-  let cssName = `--${k.replace(/([A-Z])/g, (_, m1) => `--${m1.toLowerCase()}`)}`;
+  let cssName = `--ui-${k.replace(/([A-Z])/g, (_, m1) => `-${m1.toLowerCase()}`)}`;
   if (colours[k]) document.body.style.setProperty(cssName, colours[k]);
   // XXX: DEBUG
-  if (colours[k]) console.warn(cssName, colours[k]); // x
+  // if (colours[k]) console.warn(cssName, colours[k]); // x
 });
 
 // XXX: DEBUG
-console.warn(JSON.stringify(colours, null, 2));
+// console.warn(JSON.stringify(colours, null, 2));

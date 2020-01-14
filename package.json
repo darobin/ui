@@ -4,7 +4,7 @@
   "description": "Project to build my UI components, mostly tinkering for fun",
   "scripts": {
     "build": "rollup -c",
-    "watch": "concurrently --kill-other \"npm run watch-js\" \"npm run watch-server\"",
+    "watch": "concurrently --kill-others \"npm run watch-js\" \"npm run watch-server\"",
     "watch-js": "rollup -c -w",
     "watch-server": "sirv start showcase --port 5555",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -34,7 +34,7 @@
     "rollup-plugin-livereload": "^1.0.4",
     "rollup-plugin-svelte": "^5.1.1",
     "sirv-cli": "^0.4.5",
-    "svelte": "^3.16.7",
-    "svelte-preprocess-splintered": "^1.0.0"
+    "svelte": "^3.17.0",
+    "svelte-preprocess-splintered": "^1.1.0"
   }
 }

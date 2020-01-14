@@ -4,5 +4,5 @@
 </script>
 
 <AppRoot
-  primaryColor="#0f0"
+  primaryColor="#0ff"
 ></AppRoot>
