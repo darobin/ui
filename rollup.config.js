@@ -17,7 +17,7 @@ export default {
     svelte({
       preprocess: splintered(),
       css (css) {
-        css.write('showcase/showcase.css', false);
+        css.write('showcase/main.css', false);
       },
     }),
     resolve({
