@@ -3,7 +3,7 @@
 
 - [x] Setup
   - [ ] Look at how other Svelte libs have done this, notably with the issue that this will
-        required `splintered`.
+        require `splintered`.
 
 - [x] AppRoot component
   - [ ] have a colour system using `:global(:root)` to declare vars according to

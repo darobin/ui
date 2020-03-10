@@ -28,6 +28,6 @@ export default {
     livereload('showcase'),
   ],
   watch: {
-    clearScreen: false
+    clearScreen: false,
   },
 };
